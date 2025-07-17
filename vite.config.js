@@ -4,7 +4,7 @@ import { VitePWA } from 'vite-plugin-pwa';
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/REPO_NAME/', // <-- Replace REPO_NAME with your GitHub repo name
+  base: '/nlp-rule-engine/', // <-- Updated to match repo name
   plugins: [
     react(),
     VitePWA({
